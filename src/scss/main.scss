@@ -73,6 +73,53 @@ h1 {
   font-family: "hubdisplay";
   color: green;
 }
+// header
+
+.container-nav {
+  background-color: var(--red);
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+}
+
+@media (max-width: 992px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+//buger
+
+.line {
+  top: 17px;
+  left: 15px;
+  position: fixed;
+  margin-top: 7px;
+  width: 27px;
+  height: 3px;
+  background-color: var(--white);
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+.line-02 {
+  top: 10px;
+}
+
+.line-03 {
+  top: 3px;
+}
+
+@media (min-width: 992px) {
+  .burger-close {
+    display: none;
+  }
+}
 
 // anim-01
 
