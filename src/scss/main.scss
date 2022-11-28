@@ -188,6 +188,45 @@ header {
   border-right: var(--black) solid 2px;
 }
 
+//anime-02
+
+.defiling-container-reverse {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+  width: 100%;
+}
+
+.defiling-text-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: "hubdisplay";
+  color: var(--white);
+  font-size: 38px;
+  white-space: nowrap;
+  animation: scrollTxt2 12.5s linear infinite;
+}
+
+@keyframes scrollTxt2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50%, 0);
+  }
+}
+
+.animation-02 {
+  background-color: var(--black);
+  border-bottom: var(--white) solid 2px;
+  border-top: var(--white) solid 2px;
+}
+
+.animation-separation-w {
+  padding: 4px 10px 0px 10px;
+  border-right: var(--white) solid 2px;
+}
 //main white
 
 .logo-black {
