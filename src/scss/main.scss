@@ -3,6 +3,12 @@
 // ==================================== */
 
 :root {
+  --black: #000000;
+  --white: #ffffff;
+  --dark: #121212;
+  --red: #ff6852;
+  --green: #28926a;
+  --brown: #664337;
 }
 
 /* ====================================
@@ -66,4 +72,43 @@ h2 {
 h1 {
   font-family: "hubdisplay";
   color: green;
+}
+
+// anim-01
+
+.defiling-container {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+}
+
+.defiling-text {
+  display: flex;
+  flex-direction: row;
+  font-family: "hubregular";
+  font-size: 21px;
+  white-space: nowrap;
+  animation: scrollTxt1 12.5s linear infinite;
+}
+
+@keyframes scrollTxt1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+.animation-01 {
+  background-color: var(--white);
+  border-bottom: var(--black) solid 2px;
+  border-top: var(--black) solid 2px;
+}
+
+.animation-separation {
+  padding: 4px 10px 0px 10px;
+  border-right: var(--black) solid 2px;
 }
