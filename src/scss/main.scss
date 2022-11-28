@@ -93,7 +93,37 @@ h1 {
   }
 }
 
-//buger
+.header-nav {
+  color: var(--white);
+  font-family: Hub191Display-Regular;
+  margin: 0px 20px;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.nav-icone {
+  font-family: FontAwesome6Free-Solid;
+  font-size: 10px;
+  color: #ffffff;
+  letter-spacing: 0;
+  position: fixed;
+  right: 45px;
+  top: 30px;
+}
+
+.fa-solid {
+  margin: 8px;
+}
+
+@media (max-width: 992px) {
+  .header-nav {
+    display: none;
+  }
+}
+
+//burger
 
 .line {
   top: 17px;
