@@ -73,6 +73,7 @@ h1 {
   font-family: "hubdisplay";
   color: green;
 }
+
 // header
 
 header {
@@ -111,11 +112,11 @@ header {
 
 .nav-icone {
   font-family: FontAwesome6Free-Solid;
-  font-size: 10px;
+  font-size: 15px;
   color: #ffffff;
   letter-spacing: 0;
   position: fixed;
-  right: 45px;
+  right: 25px;
   top: 30px;
 }
 
@@ -127,6 +128,11 @@ header {
   .header-nav {
     display: none;
   }
+}
+
+.header-link {
+  position: relative;
+  top: 15px;
 }
 
 //burger
