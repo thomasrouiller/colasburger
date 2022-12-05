@@ -480,6 +480,10 @@ header {
 
 //reservation module
 
+.reservation-container-style {
+  height: 58px;
+}
+
 .reservation-container {
   font-family: "hubregular";
   font-size: 48px;
@@ -514,8 +518,9 @@ header {
   border-right: var(--white) solid 1.5px;
 }
 
-.reservation-table {
-  padding-top: 10px;
+.reservation-separation-line {
+  position: relative;
+  height: 56px;
 }
 
 //burger test
@@ -535,6 +540,7 @@ header {
   font-size: 47px;
   color: var(--white);
   letter-spacing: 0;
+  opacity: 0;
 }
 
 .burger-link {
@@ -543,7 +549,7 @@ header {
 }
 
 .burger-open.is-open {
-  opacity: 0;
+  opacity: 1;
 }
 
 .menu {
