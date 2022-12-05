@@ -138,6 +138,7 @@ header {
   background-color: var(--white);
   border-radius: 10px;
   margin-top: 1em;
+  transition: all 0.4s;
 }
 
 .burger-line-02 {
@@ -146,6 +147,18 @@ header {
 
 .burger-line-03 {
   top: 3px;
+}
+
+.burger-close.is-active {
+  .burger-line-01 {
+  }
+  .burger-line-02 {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  .burger-line-03 {
+  }
 }
 
 @media (min-width: 992px) {
