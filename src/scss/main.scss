@@ -16,6 +16,7 @@
 // ==================================== */
 
 @import "bootstrap/scss/bootstrap-grid";
+@import "fonts.scss";
 
 * {
   box-sizing: border-box;
@@ -46,6 +47,14 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 100;
 }
 
 /* ====================================
@@ -197,10 +206,6 @@ header {
 .defiling-text-reverse {
   display: flex;
   flex-direction: row-reverse;
-  font-family: "hubdisplay";
-  color: var(--white);
-  font-size: 38px;
-  white-space: nowrap;
   animation: scrollTxt2 15s linear infinite;
 }
 
@@ -214,6 +219,10 @@ header {
 }
 
 .animation-02 {
+  font-family: "hubdisplay";
+  color: var(--white);
+  font-size: 38px;
+  white-space: nowrap;
   background-color: var(--black);
   border-bottom: var(--white) solid 2px;
   border-top: var(--white) solid 2px;
@@ -222,6 +231,16 @@ header {
 .animation-separation-w {
   padding: 4px 10px 0px 10px;
   border-right: var(--white) solid 2px;
+}
+
+// anime-3
+
+.animation-03 {
+  background-color: var(--green);
+  font-family: "hubscript";
+  color: var(--white);
+  font-size: 38px;
+  letter-spacing: 0;
 }
 
 //main introduction
@@ -319,31 +338,95 @@ header {
   }
 }
 
-.burgers-text {
+.burgers-script-text {
   font-family: "hubscript";
   font-size: 46px;
   color: #ffffff;
   letter-spacing: 0;
   line-height: 35px;
-  padding: 0px 17px 28px 17px;
+  padding: 0px 17px 0px 17px;
 }
 
 @media (min-width: 992px) {
-  .burgers-text {
+  .burgers-script-text {
     padding-top: 104px;
     padding-bottom: 40px;
     max-width: 350px;
   }
 }
 
-// articles
+// burger articles
 
 .article-container {
   max-width: 343px;
+  margin: 14px 0px;
 }
 
 .article-centering {
   display: flex;
   justify-content: center;
   margin: 0;
+}
+
+.article-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.burger-article-title {
+  font-family: "hubregular";
+  font-size: 32px;
+  color: var(--white);
+  letter-spacing: 0;
+  padding: 10px 10px 0px 10px;
+}
+
+.article-arrow {
+  font-size: 36px;
+  color: #ffffff;
+  letter-spacing: 0;
+  padding: 0px 15px 0px 0px;
+}
+
+.article-text-container {
+  border-bottom-right-radius: 19px;
+}
+
+.article-green {
+  background: var(--green);
+}
+
+.article-red {
+  background: var(--red);
+}
+
+.article-brow {
+  background: var(--brown);
+}
+
+// button find more
+
+.button-container {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .button-container {
+    margin: 50px 0px 0px 0px;
+    padding-bottom: 50px;
+  }
+}
+
+.burger-article-button {
+  text-align: center;
+  font-family: "hubregular";
+  font-size: 41px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-decoration: none;
+  padding: 10px 25px 5px 25px;
+  border: 1px solid #ffffff;
 }
