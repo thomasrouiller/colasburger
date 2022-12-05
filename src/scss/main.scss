@@ -52,12 +52,6 @@ video {
 // base rules
 // ==================================== */
 
-h1 {
-  font-family: "hubdisplay";
-  color: green;
-  background-color: red;
-}
-
 .row {
   padding: 0;
 }
@@ -340,4 +334,16 @@ header {
     padding-bottom: 40px;
     max-width: 350px;
   }
+}
+
+// articles
+
+.article-container {
+  max-width: 343px;
+}
+
+.article-centering {
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
