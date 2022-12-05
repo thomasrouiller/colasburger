@@ -55,6 +55,7 @@ video {
 h1 {
   font-family: "hubdisplay";
   color: green;
+  background-color: red;
 }
 
 .row {
@@ -66,7 +67,7 @@ h1 {
 header {
   position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .container-nav {
@@ -206,7 +207,7 @@ header {
   color: var(--white);
   font-size: 38px;
   white-space: nowrap;
-  animation: scrollTxt2 12.5s linear infinite;
+  animation: scrollTxt2 15s linear infinite;
 }
 
 @keyframes scrollTxt2 {
@@ -314,6 +315,13 @@ header {
   .burgers-title {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .burgers-title {
+    font-size: 66px;
+    line-height: 52px;
   }
 }
 
