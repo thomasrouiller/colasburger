@@ -272,6 +272,25 @@ header {
   border-bottom: var(--white) solid 1.5px;
 }
 
+// anime-4
+
+.animation-04 {
+  background-color: var(--white);
+  padding: 20px 10px;
+  animation: scrollTxt1 12.5s linear infinite 0s;
+  overflow: hidden;
+}
+
+.defiling-container-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.defiling-container-img img {
+  width: 90px;
+  margin: 0px 10px;
+}
+
 //main introduction
 
 .logo-black {
