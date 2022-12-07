@@ -276,8 +276,8 @@ header {
 
 .animation-04 {
   background-color: var(--white);
-  padding: 20px 10px;
-  animation: scrollTxt1 12.5s linear infinite 0s;
+  padding: 10px 0px;
+  // animation: scrollTxt1 12.5s linear infinite 0s;
   overflow: hidden;
 }
 
@@ -568,6 +568,17 @@ header {
 .reservation-separation-line {
   position: relative;
   height: 56px;
+}
+
+.mascotte-container {
+  display: flex;
+  justify-content: center;
+  max-width: 350px;
+  margin: 0;
+}
+
+.mascotte {
+  display: flex;
 }
 
 //burger test
