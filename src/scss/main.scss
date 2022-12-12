@@ -823,3 +823,25 @@ header {
     display: none;
   }
 }
+
+//foodtruck table
+
+table {
+  margin-top: 30px;
+  font-family: "hubregular";
+  color: var(--black);
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 22px;
+  border-right: var(--black) 1px solid;
+  border-top: var(--black) 1px solid;
+  border-left: var(--black) 1px solid;
+}
+
+td {
+  border-bottom: var(--black) 1px solid;
+}
+
+.table-right-line {
+  border-right: var(--black) 1px solid;
+}
