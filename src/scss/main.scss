@@ -339,7 +339,7 @@ header {
   border-right: var(--white) solid 2px;
 }
 
-// anime-3
+// anime-03
 
 .animation-03 {
   background-color: var(--green);
@@ -350,7 +350,7 @@ header {
   border-bottom: var(--white) solid 1.5px;
 }
 
-// anime-4
+// anime-04
 
 .animation-04 {
   background-color: var(--white);
@@ -369,7 +369,7 @@ header {
   margin: 0px 10px;
 }
 
-// anime-5 (2) recipes
+// anime-05 (2) recipes
 
 .animation-alternate-style {
   font-family: "hubregular";
@@ -530,7 +530,7 @@ header {
   font-size: 36px;
   color: #ffffff;
   letter-spacing: 0;
-  padding: 0px 15px 0px 0px;
+  padding: 0px 10px 0px 0px;
 }
 
 .article-text-container {
@@ -693,4 +693,54 @@ header {
   .mascotte {
     padding: 50px 0px 50px 50px;
   }
+}
+
+// recipes articles
+
+.article-container-recipes {
+  width: 345px;
+  display: flex;
+}
+
+.article-container-recipes img {
+  width: 180px;
+}
+
+.article-recipes-text-container {
+  border-radius: 0px 10px 20px 0px;
+  background-color: var(--white);
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.recipes-article-title {
+  font-family: "hubregular";
+  font-size: 24px;
+  letter-spacing: 0;
+  margin: 27px 30px 20px 14px;
+}
+
+.recipes-article-text {
+  font-family: "ppagrandir";
+  font-size: 18px;
+  letter-spacing: 0;
+  margin: 0px 0px 20px 14px;
+}
+
+.recipes-article-calltoaction {
+  font-family: "hubregular";
+  font-size: 34px;
+  color: var(--white);
+  letter-spacing: 0;
+}
+
+.article-recipes-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 0px 14px;
+  border-radius: 0px 0px 20px 0px;
 }
