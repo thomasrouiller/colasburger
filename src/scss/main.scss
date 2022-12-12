@@ -698,9 +698,19 @@ header {
 // recipes articles
 
 .article-container-recipes {
-  width: 345px;
+  max-width: 345px;
   display: flex;
-  margin: 0px 0px 20px 0px;
+  margin: 10px 0px 20px 0px;
+}
+
+@media (min-width: 992px) {
+  .article-container-recipes {
+    margin: 20px;
+  }
+  // .margin-test {
+  //   margin: 0px 5px 0px 5px;
+  //   width: 80%;
+  // }
 }
 
 .recipes-margin {
@@ -714,7 +724,8 @@ header {
 }
 
 .article-container-recipes img {
-  width: 180px;
+  width: 48%;
+  object-fit: cover;
 }
 
 .article-recipes-text-container {
@@ -737,6 +748,7 @@ header {
   font-family: "ppagrandir";
   font-size: 18px;
   letter-spacing: 0;
+  padding-right: 10px;
   margin: 0px 0px 20px 14px;
 }
 
