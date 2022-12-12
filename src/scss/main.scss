@@ -380,6 +380,14 @@ header {
   padding-top: 2px;
 }
 
+// anime-06 foodtruck
+
+.animation-alternate-style-2 {
+  background-color: var(--white);
+  color: var(--black);
+  border-bottom: var(--black) solid 2px;
+}
+
 //main introduction
 
 .logo-black {
@@ -767,4 +775,51 @@ header {
   align-items: center;
   padding: 0px 0px 0px 14px;
   border-radius: 0px 0px 20px 0px;
+}
+
+// foodtruck
+
+.foodtruck-container {
+  background-color: var(--white);
+}
+
+.foodtruck-title {
+  padding-top: 40px;
+  color: var(--black);
+}
+
+.foodtruck-text {
+  color: var(--black);
+}
+
+@media (min-width: 992px) {
+  .foodtruck-pad {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .foodtruck-title {
+    border-right: var(--black) solid 0.7px;
+    padding-top: 40px;
+    margin-top: 0px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .foodtruck-text {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.separation-black {
+  border: var(--black) solid 0.7px;
+}
+
+@media (max-width: 992px) {
+  .separation-black {
+    display: none;
+  }
 }
