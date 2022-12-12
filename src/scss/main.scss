@@ -388,6 +388,21 @@ header {
   border-bottom: var(--black) solid 2px;
 }
 
+// anime-07 partner
+
+.partner-animation {
+  animation: logoAnimation 12s linear infinite;
+}
+
+@keyframes logoAnimation {
+  from {
+    transform: translate(0%, 0%);
+  }
+  to {
+    transform: translate(-100%, 0%);
+  }
+}
+
 //main introduction
 
 .logo-black {
@@ -827,6 +842,8 @@ header {
 //foodtruck table
 
 table {
+  width: 100%;
+  text-align: left;
   margin-top: 30px;
   font-family: "hubregular";
   color: var(--black);
@@ -839,9 +856,33 @@ table {
 }
 
 td {
+  padding: 5px 15px 5px 5px;
   border-bottom: var(--black) 1px solid;
 }
 
 .table-right-line {
   border-right: var(--black) 1px solid;
+}
+
+// partner
+
+.partner-title {
+  text-align: center;
+  padding: 15px 0px 10px 0px;
+  font-family: "hubdisplay";
+  font-size: 41px;
+  color: var(--black);
+  letter-spacing: 0;
+  line-height: 32px;
+  border-bottom: var(--black) solid 1px;
+  border-top: var(--black) solid 1px;
+}
+
+.partner-animation {
+  display: flex;
+  flex-direction: row;
+}
+
+.partner-logo {
+  padding: 30px;
 }
