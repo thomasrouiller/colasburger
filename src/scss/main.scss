@@ -276,7 +276,7 @@ header {
   font-family: "hubregular";
   font-size: 21px;
   white-space: nowrap;
-  animation: scrollTxt1 12.5s linear infinite;
+  animation: scrollTxt1 16s linear infinite;
 }
 
 @keyframes scrollTxt1 {
@@ -859,10 +859,11 @@ table {
   border-right: var(--black) 1px solid;
   border-top: var(--black) 1px solid;
   border-left: var(--black) 1px solid;
+  border-collapse: collapse;
 }
 
 td {
-  padding: 5px 15px 5px 5px;
+  padding: 10px 15px 5px 15px;
   border-bottom: var(--black) 1px solid;
 }
 
@@ -921,11 +922,19 @@ footer {
   line-height: 22px;
 }
 
-.footer-small-container {
-  font-size: 32px;
+a {
+  text-decoration: none;
+}
 
-  letter-spacing: 5px;
+.footer-small-container {
+  margin: 42px 0px 20px 0px;
+  font-size: 32px;
   line-height: 32px;
+  margin-top: 0px;
+}
+
+.footer-socials {
+  letter-spacing: 7px;
 }
 
 .footer-credits {
