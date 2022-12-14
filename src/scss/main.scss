@@ -677,19 +677,24 @@ header {
   padding: 0px 10px 0px 10px;
 }
 
+.reservation-table {
+  border-right: var(--white) solid 1.5px;
+  padding: 0px 45px 0px 0px;
+}
+
 .guest-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .date-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .time-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .reservation-separation-line {
