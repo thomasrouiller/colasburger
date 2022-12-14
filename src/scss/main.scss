@@ -726,7 +726,7 @@ header {
 
 @media (min-width: 992px) {
   .mascotte {
-    padding: 50px 0px 50px 50px;
+    padding: 50px 0px 50px 0px;
   }
 }
 
@@ -855,7 +855,6 @@ header {
 table {
   width: 100%;
   text-align: left;
-  margin-top: 30px;
   font-family: "hubregular";
   color: var(--black);
   font-size: 25px;
@@ -865,6 +864,12 @@ table {
   border-top: var(--black) 1px solid;
   border-left: var(--black) 1px solid;
   border-collapse: collapse;
+}
+
+@media (min-width: 992px) {
+  table {
+    margin-top: 50px;
+  }
 }
 
 td {
