@@ -115,15 +115,59 @@ header {
   margin: 8px;
 }
 
+// hover
+
+.hover-underline {
+  display: inline-block;
+  position: relative;
+  color: var(--white);
+}
+
+.hover-underline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 @media (max-width: 992px) {
-  .header-nav {
+  .header-nav,
+  .hover-underline {
     display: none;
   }
+}
+
+.hover-zoom {
+  transition: transform 0.2s;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.15);
 }
 
 .header-link {
   position: relative;
   top: 15px;
+}
+
+.hover-move-arrow {
+  transition: transform 0.3s;
+  transform-origin: left;
+}
+
+.hover-move-arrow:hover {
+  transform: translate(10px);
 }
 
 //burger menu
