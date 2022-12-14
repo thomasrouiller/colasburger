@@ -170,6 +170,15 @@ header {
   transform: translate(10px);
 }
 
+.hover-color {
+  transition: transform 1s;
+}
+
+.hover-color:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
 //burger menu
 
 .burger-line {
