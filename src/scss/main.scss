@@ -94,7 +94,7 @@ header {
 
 .header-nav {
   color: var(--white);
-  font-family: Hub191Display-Regular;
+  font-family: "hubdisplay";
   margin: 0px 20px;
   font-size: 18px;
   color: #ffffff;
@@ -147,6 +147,30 @@ header {
   .hover-underline {
     display: none;
   }
+}
+
+.hover-underline-desktop {
+  display: inline-block;
+  position: relative;
+  color: var(--white);
+}
+
+.hover-underline-desktop:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-desktop:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .hover-zoom {
