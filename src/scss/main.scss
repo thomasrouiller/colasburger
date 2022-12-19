@@ -25,6 +25,7 @@
 }
 
 html {
+  background-image: linear-gradient(#ff6852, #000000);
   font-size: 16px;
   scroll-behavior: smooth;
 }
@@ -355,7 +356,7 @@ header {
 //anime-02
 
 .defiling-container-reverse {
-  background-color: var(--black);
+  background-color: var(--dark);
   display: flex;
   flex-direction: row-reverse;
   overflow: hidden;
@@ -382,7 +383,7 @@ header {
   color: var(--white);
   font-size: 38px;
   white-space: nowrap;
-  background-color: var(--black);
+  background-color: var(--dark);
   border-bottom: var(--white) solid 2px;
   border-top: var(--white) solid 2px;
 }
@@ -464,6 +465,11 @@ header {
 
 //main introduction
 
+main {
+  padding-top: 30px;
+  background-color: var(--white);
+}
+
 .logo-black {
   text-align: center;
   width: 320px;
@@ -474,8 +480,16 @@ header {
 @media (min-width: 992px) {
   .logo-black {
     width: 600px;
+    padding-top: 0px;
     margin-top: 25px;
     margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo-black {
+    width: 250px;
+    padding-top: 0px;
   }
 }
 
@@ -531,7 +545,7 @@ header {
 //main burgers articles
 
 .burgers-dark {
-  background-color: var(--black);
+  background-color: var(--dark);
   color: var(--white);
 }
 
@@ -960,7 +974,7 @@ td {
 // footer
 
 footer {
-  background-color: var(--black);
+  background-color: var(--dark);
   color: var(--white);
   padding: 40px 0px 0px 17px;
 }
@@ -973,7 +987,7 @@ footer {
 
 .footer-title {
   font-family: "hubdisplay";
-  font-size: 25px;
+  font-size: 32px;
   letter-spacing: 0;
   line-height: 32px;
 }
